@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#1a237e] text-white px-4 py-2 rounded-md hover:bg-[#283593] transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-[#90caf9] text-[#1a237e] px-4 py-2 rounded-md hover:bg-[#64b5f6] transition-colors duration-200;
+  }
+}
